@@ -52,16 +52,19 @@ var_dump($c !== $d);
 $valorA = 50;
 $valorB = 35;
 $valorC = NULL;
-// var_dump($valorA <=> $valorB);
+
+echo "<br/>";
+var_dump($valorA <=> $valorB);
 
 // null coalesce
-// echo $a ?? $b ?? $c;
+echo "<br/>";
+ echo $a ?? $b ?? $c;
 
 
 // operadore incrementais
 
 $incre = 10;
-echo "<br/>"
+echo "<br/>";
 echo $incre++;
 echo $incre;
 
