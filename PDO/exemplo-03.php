@@ -1,5 +1,5 @@
 <?php
-// conecção com pdo
+// conexão com pdo
 
 $conn = new PDO("mysql:dbname=nome_do_banco;host=localhost","user","senha");
 
