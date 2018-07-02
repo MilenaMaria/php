@@ -1,0 +1,14 @@
+{
+    "name": "milenamaria/composer",
+    "description": "iniciando composer",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+      "monolog/monolog":"1.0.*"
+    }
+}
+/**
+*composer install - para instalar dependencias
+*composer update para atualizar dependencias
+*composer init para gerar um json
+*/
