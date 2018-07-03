@@ -6,9 +6,27 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit6906053a4df56baad2eccd7a8be8b872
 {
+    public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Slim' => 
+            array (
+                0 => __DIR__ . '/..' . '/slim/slim',
+            ),
+        ),
+        'R' => 
+        array (
+            'Rain' => 
+            array (
+                0 => __DIR__ . '/..' . '/rain/raintpl/library',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixesPsr0 = ComposerStaticInit6906053a4df56baad2eccd7a8be8b872::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
