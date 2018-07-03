@@ -8,7 +8,7 @@ if (!is_numeric($id) || strlen($id) > 5){
   exit("Sem injection!");
 }
 
-$conn = mysqli_connect("localhost","root","","dbphp7");
+$conn = mysqli_connect(("localhost","user_do_banco","senha_do_banco","nome_banco");
 
 $sql = "SELECT * FROM tb_usuarios WHERE idusuario = $id";
 
